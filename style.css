@@ -1,18 +1,23 @@
 .roboto-normal {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
 }
 
-.header{
-    background-image: url(/images/developer.png),url(images/header_bg.png);
+
+
+.header {
+    background-image: url(/images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    padding: 70px 0px 70px 70px;
+
+
 }
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -28,7 +33,7 @@
 }
 
 .ru {
-    color: rgb(255, 115, 0)
+    color: rgb(255, 123, 0)
 }
 
 ul.nav-links {
@@ -98,11 +103,36 @@ nav ul li a {
 }
 
 .banar-content {
-   max-width: 500px;
-    
+    max-width: 500px;
+
 }
 
 img {
     max-width: 500px;
 
+
+}
+
+/* About Seftion................................ */
+.about {
+    max-width: 1340px;
+    margin: 0 auto;
+    background-color: rgb(255, 227, 209);
+    padding: 100px 150px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about-conten {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(156, 142, 129);
+    box-shadow:  10px rgba(0, 0, 0, 0.1);
+   
+}
+.about-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
