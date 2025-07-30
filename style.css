@@ -1,0 +1,108 @@
+.roboto-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.header{
+    background-image: url(/images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding: 70px 0px 70px 70px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.ru {
+    color: rgb(255, 115, 0)
+}
+
+ul.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400px;
+    font-size: 20px;
+
+}
+
+.hire {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Banner conten...................... */
+.baner {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 35px 0px 200px;
+}
+
+.contact-btn {
+    color: rgb(255, 129, 71);
+    border-color: rgb(255, 129, 71);
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 8px 15px;
+    border: 1px solid;
+}
+
+.contact-btn:hover {
+    background-color: rgb(255, 129, 71);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.baner-greting {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(255, 115, 0);
+}
+
+.baner-title {
+    font-size: 80px;
+    font-weight: 800;
+    color: black;
+}
+
+.banar-content {
+   max-width: 500px;
+    
+}
+
+img {
+    max-width: 500px;
+
+}
