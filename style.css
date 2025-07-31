@@ -107,32 +107,78 @@ nav ul li a {
 
 }
 
-img {
-    max-width: 500px;
-
-
-}
 
 /* About Seftion................................ */
 .about {
     max-width: 1340px;
     margin: 0 auto;
-    background-color: rgb(255, 227, 209);
+    background-color: rgb(255, 243, 230);
     padding: 100px 150px;
     margin-top: 50px;
     text-align: center;
     border-radius: 10px;
 }
+
 .about-conten {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 30px;
     border: 1px solid rgb(156, 142, 129);
-    box-shadow:  10px rgba(0, 0, 0, 0.1);
-   
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+
 }
-.about-footer{
+
+.about-footer {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+
+
+/* What i do .......................section */
+.what {
+    max-width: 1340px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 150px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.what-conten-element {
+    background-color: rgb(245, 238, 238);
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 115, 0);
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+
+
+}
+
+.what-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+footer {
+    max-width: 1340px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(19, 7, 1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    margin-top: 50px;
+  
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+   
 }
